@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Mi página personal</title>
+</head>
+<body>
+  <nav class="navbar navbar-default fondo">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/logo1.jpg" alt="Este es mi logo"></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
+        <li><a href="biografia.html">Biografía</a></li>
+        <li><a href="filmografia.html">Filmografía</a></li>
+        <li class="active"><a href="contacto.html">Contacto<span class="sr-only">(current)</span></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Redes Sociales <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <li><a href="https://twitter.com">Twitter</a></li>
+            <li><a href="https://instagram.com">Instagram</a></li>
+            <li><a href="https://youtube.com">YouTube</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--Contenido de la página de contacto-->
+<div class="container">
+  <div class="col-md-8">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.812650740294!2d-99.12944188485254!3d19.420499146099345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce01a249358f95%3A0xf65c4cee5b79209!2sCalz.+de+la+Viga%2C+Esperanza%2C+Ciudad+de+M%C3%A9xico%2C+CDMX!5e0!3m2!1ses-419!2smx!4v1497974474938" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+  <div class="col-md-4">
+    <h2>Contacto</h2>
+    <p>Calzada de la Viga # 45 <br> Col. Esperanza<br>Deleg. Cuauhtémoc <br>Código Postal 06840</p>
+    <p><span class="glyphicon glyphicon-phone-alt" aria-hidden="true"></span><abbr title="Teléfono">  </abbr>55226073</p>
+    <p><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><abbr title='Email'>  </abbr><a href="mailto:gortalfa@hotmail.com">gortalfa@hotmail.com</a></p>
+    <p><span class="glyphicon glyphicon-time" aria-hidden="true"></span><abbr title="Horario">   </abbr>8:00 a.m. - 16:00 p.m.</p>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-8">
+    <h3>Envía un mensaje</h3>
+    <form>
+    <!--El email-->
+  <div class="form-group">
+    <label for="exampleInputEmail1">Correo</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <!--La contraseña-->
+  <div class="form-group">
+    <label for="exampleInputPassword1">Contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <!--El mensaje que queremos enviar-->
+  <div class="control-group form-group">
+    <div class="controls"></div>
+    <label>Mensaje</label>
+    <textarea rows="10" cols="100" class="form-control" id="message" required data-validation-required-message="Por favor ingresa un mensaje" maxlength="999" style="resize: none;">
+      
+    </textarea>
+  </div>
+  <button type="submit" class="btn btn-info">Enviar</button>
+</form>
+  </div>
+</div>
+<!--Comienza el Footer-->
+<footer>
+  <div class="row">
+    <div class="col-lg-12">
+      <center>
+        <p>Copyright &copy; 2017</p>
+      </center>
+    </div>
+  </div>
+</footer>
+<!--Termina el footer-->
+</body>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/bootstrap.js"></script>
+</html>
