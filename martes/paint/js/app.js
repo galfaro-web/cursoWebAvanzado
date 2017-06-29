@@ -64,3 +64,13 @@ $canvas.mousedown(function(e){
 	$canvas.mouseup();
 });
 
+//Cuando "Goma" sea presionado
+$('#eraser').click(function(){
+	context.beginPath();
+	context.moveTo(lastEvent.offsetX,lastEvent.offsetY);
+	context.lineTo(e.offsetX,e.offsetY);
+	context.clear();
+	/*canvas.background.context.beginPath();
+    canvas.background.context.arc(offsetX, offsetY, state.lineThickness, 0, 2 * Math.PI, false);
+    canvas.background.context.clear();*/
+ });
